@@ -32,10 +32,10 @@ import paho.mqtt.client as mqtt
 # ---------------------------
 # Configuration (change if needed)
 # ---------------------------
-BROKER = "mqtt.sar-analytic.in"   # use IP if DNS problems
+BROKER = ""   # use IP if DNS problems
 PORT = 1883
-USERNAME = "mqtt"
-PASSWORD = "mqtt"
+USERNAME = ""
+PASSWORD = ""
 TOPIC = "sos"
 
 SIMULATE = False  # start with simulation off by default
